@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:customfontdemo="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.mlab.asynctask.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <com.mlab.asynctask.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="custom font 1 text view Comic sans"
+        android:textSize="20dp"
+        customfontdemo:fontName="font1" />
+
+    <com.mlab.asynctask.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="custom font royal 2 yev ayln"
+        android:textSize="20dp"
+        customfontdemo:fontName="font2" />
+
+</LinearLayout>
